@@ -13,7 +13,6 @@ class CustomGento_Cookiebot_Model_Observer
         $cookiebotScript = Mage::getModel('customgento_cookiebot/scriptGenerator')->generate();
         $transportObject = $event->getData('transport');
         if ($cookiebotScript !== '' && $transportObject && $transportObject->getData('html')) {
-
             $transportObject->setData('html', $cookiebotScript . PHP_EOL . $transportObject->getData('html'));
         }
     }
