@@ -1,2 +1,2 @@
-app/code/local/CustomGento/Cookiebot/ app/code/local/CustomGento/Cookiebot/
+app/code/community/CustomGento/Cookiebot/ app/code/community/CustomGento/Cookiebot/
 app/etc/modules/CustomGento_Cookiebot.xml app/etc/modules/CustomGento_Cookiebot.xml
