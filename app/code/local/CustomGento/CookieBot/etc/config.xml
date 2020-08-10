@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CustomGento_CookieBot>
+            <version>1.0.0</version>
+        </CustomGento_CookieBot>
+    </modules>
+    <global>
+        <models>
+            <customgento_cookiebot>
+                <class>CustomGento_CookieBot_Model</class>
+            </customgento_cookiebot>
+        </models>
+        <helpers>
+            <customgento_cookiebot>
+                <class>CustomGento_CookieBot_Helper</class>
+            </customgento_cookiebot>
+        </helpers>
+    </global>
+    <frontend>
+        <events>
+            <core_block_abstract_to_html_after>
+                <observers>
+                    <customgento_cookiebot>
+                        <class>CustomGento_CookieBot_Model_Observer</class>
+                        <method>addCookiebotScript</method>
+                    </customgento_cookiebot>
+                </observers>
+            </core_block_abstract_to_html_after>
+        </events>
+    </frontend>
+</config>
