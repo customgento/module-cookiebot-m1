@@ -22,7 +22,7 @@
             <core_block_abstract_to_html_after>
                 <observers>
                     <customgento_cookiebot>
-                        <class>CustomGento_Cookiebot_Model_Observer</class>
+                        <class>customgento_cookiebot/observer</class>
                         <method>addCookiebotScript</method>
                     </customgento_cookiebot>
                 </observers>
