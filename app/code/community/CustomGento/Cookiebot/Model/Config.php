@@ -9,11 +9,11 @@ class CustomGento_Cookiebot_Model_Config
 
     public function isEnabled(): bool
     {
-        return (bool)Mage::getStoreConfig(self::XML_PATH_COOKIEBOT_ENABLED, Mage::app()->getStore()->getStoreId());
+        return (bool)Mage::getStoreConfig(self::XML_PATH_COOKIEBOT_ENABLED);
     }
 
     public function getCookiebotId(): string
     {
-        return Mage::getStoreConfig(self::XML_PATH_COOKIEBOT_ID, Mage::app()->getStore()->getStoreId());
+        return Mage::getStoreConfig(self::XML_PATH_COOKIEBOT_ID);
     }
 }
