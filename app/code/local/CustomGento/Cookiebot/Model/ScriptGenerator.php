@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class CustomGento_CookieBot_Model_ScriptGenerator
+class CustomGento_Cookiebot_Model_ScriptGenerator
 {
     private const COOKIEBOT_SCRIPT_FORMAT = '<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="%s" data-blockingmode="auto" type="text/javascript"></script>';
 

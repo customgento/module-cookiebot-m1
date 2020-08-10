@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class CustomGento_CookieBot_Model_Config
+class CustomGento_Cookiebot_Model_Config
 {
     private const XML_PATH_COOKIEBOT_ENABLED = 'web/cookiebot/enabled';
     private const XML_PATH_COOKIEBOT_ID = 'web/cookiebot/id';

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-class CustomGento_CookieBot_Model_Observer
+class CustomGento_Cookiebot_Model_Observer
 {
     public function addCookiebotScript($event)
     {
