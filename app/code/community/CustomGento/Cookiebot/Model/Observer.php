@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 class CustomGento_Cookiebot_Model_Observer
 {
-    public function addCookiebotScript($event)
+    public function addCookiebotScript($event): void
     {
         if (!$event->getData('block') instanceof Mage_Page_Block_Html_Head) {
             return;
