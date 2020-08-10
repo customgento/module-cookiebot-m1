@@ -11,6 +11,11 @@
                 <class>CustomGento_Cookiebot_Model</class>
             </customgento_cookiebot>
         </models>
+        <helpers>
+            <customgento_cookiebot>
+                <class>CustomGento_Cookiebot_Helper</class>
+            </customgento_cookiebot>
+        </helpers>
     </global>
     <frontend>
         <events>
