@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <CustomGento_CookieBot>
-            <active>true</active>
-            <codePool>local</codePool>
-        </CustomGento_CookieBot>
-    </modules>
-</config>

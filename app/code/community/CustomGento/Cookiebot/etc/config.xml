@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <CustomGento_CookieBot>
+        <CustomGento_Cookiebot>
             <version>1.0.0</version>
-        </CustomGento_CookieBot>
+        </CustomGento_Cookiebot>
     </modules>
     <global>
         <models>
             <customgento_cookiebot>
-                <class>CustomGento_CookieBot_Model</class>
+                <class>CustomGento_Cookiebot_Model</class>
             </customgento_cookiebot>
         </models>
         <helpers>
             <customgento_cookiebot>
-                <class>CustomGento_CookieBot_Helper</class>
+                <class>CustomGento_Cookiebot_Helper</class>
             </customgento_cookiebot>
         </helpers>
     </global>
@@ -22,7 +22,7 @@
             <core_block_abstract_to_html_after>
                 <observers>
                     <customgento_cookiebot>
-                        <class>CustomGento_CookieBot_Model_Observer</class>
+                        <class>customgento_cookiebot/observer</class>
                         <method>addCookiebotScript</method>
                     </customgento_cookiebot>
                 </observers>
