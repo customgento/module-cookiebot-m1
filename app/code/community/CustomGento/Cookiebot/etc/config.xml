@@ -29,4 +29,15 @@
             </core_block_abstract_to_html_after>
         </events>
     </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <CustomGento_Cookiebot>
+                    <files>
+                        <default>CustomGento_Cookiebot.csv</default>
+                    </files>
+                </CustomGento_Cookiebot>
+            </modules>
+        </translate>
+    </adminhtml>
 </config>
