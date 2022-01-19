@@ -1,6 +1,6 @@
 {
     "name": "customgento/module-cookiebot-m1",
-    "description": "Magento 1 module, which integrates Cookiebot.",
+    "description": "This Magento 1 module integrates Cookiebot into your store.",
     "type": "magento-module",
     "version": "1.0.0",
     "license": "OSL-3.0",
