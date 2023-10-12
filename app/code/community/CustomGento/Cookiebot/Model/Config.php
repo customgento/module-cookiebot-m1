@@ -6,6 +6,7 @@ class CustomGento_Cookiebot_Model_Config
 {
     private const XML_PATH_COOKIEBOT_ENABLED = 'web/cookiebot/enabled';
     private const XML_PATH_COOKIEBOT_ID = 'web/cookiebot/id';
+    private const XML_PATH_COOKIEBOT_BLOCKINGMODE = 'web/cookiebot/blocking_mode';
 
     public function isEnabled(): bool
     {
@@ -15,5 +16,10 @@ class CustomGento_Cookiebot_Model_Config
     public function getCookiebotId(): string
     {
         return Mage::getStoreConfig(self::XML_PATH_COOKIEBOT_ID);
+    }
+
+    public function getBlockingMode(): string
+    {
+        return Mage::getStoreConfig(self::XML_PATH_COOKIEBOT_BLOCKINGMODE);
     }
 }
