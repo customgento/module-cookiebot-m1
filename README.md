@@ -4,7 +4,7 @@ This Magento 1 module integrates Cookiebot into your store. This is useful to gi
 ## Features
 This extension adds the Cookiebot script as the first script on the page. 
 This is required, so that Cookiebot can automatically block cookies from all included scripts. 
-We currently support the auto-blocking mode (Active by default) as well as the manual mode.
+We currently support the auto-blocking mode (default) as well as the manual mode.
 Please be aware, that the manual mode requires [manual changes](https://www.cookiebot.com/en/manual-implementation/).
 
 ## Configuration
