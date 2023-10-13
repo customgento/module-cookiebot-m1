@@ -43,6 +43,8 @@
     <default>
         <web>
             <cookiebot>
+                <enabled>0</enabled>
+                <id></id>
                 <blocking_mode>auto</blocking_mode>
             </cookiebot>
         </web>
